@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 
-const apiKey = 'pI8PQVXLfJGf7QUbLWgImeGacphgfLuDrK9JaVOq';
+const apiKey = process.ENV.API_KEY;
 
 
 
