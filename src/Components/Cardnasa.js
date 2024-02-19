@@ -97,7 +97,7 @@ return newDate
 
       
 
-      <Image variant="top" src={`https://api.nasa.gov/EPIC/archive/natural/${getdate(data[idx].date)}/png/${data[idx].image}.png?api_key=${apiKey}`} thumbnail  />
+      <Image variant="top" src={`https://epic.gsfc.nasa.gov/archive/natural/${getdate(data[idx].date)}/png/${data[idx].image}.png?api_key=${apiKey}`} thumbnail  />
 
        
 
